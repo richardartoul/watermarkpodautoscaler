@@ -9,10 +9,12 @@ require (
 	github.com/mikefarah/yq/v3 v3.0.0-20200615114226-086f0ec6b9aa
 	github.com/onsi/ginkgo v1.14.1
 	github.com/onsi/gomega v1.10.2
-	github.com/prometheus/client_golang v1.7.1
-	github.com/stretchr/testify v1.7.0
+	github.com/opentracing/opentracing-go v1.2.0 // indirect
+	github.com/philhofer/fwd v1.1.2 // indirect
+	github.com/prometheus/client_golang v1.11.1
 	github.com/spf13/cobra v1.1.1
 	github.com/spf13/pflag v1.0.5
+	github.com/stretchr/testify v1.7.0
 	go.uber.org/zap v1.15.0
 	gopkg.in/DataDog/dd-trace-go.v1 v1.34.0
 	k8s.io/api v0.20.11
